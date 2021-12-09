@@ -1,10 +1,2 @@
 # Albert-Einstein
-let gitHubRequest = new XMLHttpRequest();
-gitHubRequest.onreadystatechange = function() {
-  if (this.readyState == 4 && this.status == 200) {
-    let gitObject = JSON.parse(this.responseText);
-    document.getElementById("gitBio").innerHTML = gitObject.bio;
-  }
-};
-gitHubRequest.open("GET", "https://api.github.com/users/YOURUSERNAME", true);
-gitHubRequest.send();
+"Albert Einstein 14 March 1879 – 18 April 1955) was a German-born theoretical physicist,[5] widely acknowledged to be one of the greatest physicists of all time. Einstein is best known for developing the theory of relativity, but he also made important contributions to the development of the theory of quantum mechanics. Relativity and quantum mechanics are together the two pillars of modern physics. His mass–energy equivalence formula E = mc2, which arises from relativity theory, has been dubbed the world's most famous equation. His work is also known for its influence on the philosophy of science. He received the 1921 Nobel Prize in Physics. His intellectual achievements and originality resulted in 'Einstein' becoming synonymous with 'genius'."
